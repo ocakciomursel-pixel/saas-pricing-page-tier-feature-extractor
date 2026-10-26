@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "lucacelli-saas-pricing-page-tier-feature-extractor": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--actors",
+        "lucacelli/saas-pricing-page-tier-feature-extractor"
+      ],
+      "env": {
+        "APIFY_TOKEN": "YOUR_APIFY_TOKEN_HERE"
+      }
+    }
+  }
+}
