@@ -1,0 +1,19 @@
+{
+  "platform": "Clay.com HTTP API Enrichment Column",
+  "actorTitle": "SaaS Pricing Page, Plan Tiers & Competitor Feature Spy",
+  "actorStoreUrl": "https://apify.com/lucacelli/saas-pricing-page-tier-feature-extractor",
+  "costComparison": "$0.0008 per page ($0.80/1k) vs. $0.10–$0.50 per row in native Clay credits (98% savings)",
+  "httpApiConfiguration": {
+    "method": "POST",
+    "endpoint": "https://api.apify.com/v2/acts/lucacelli~saas-pricing-page-tier-feature-extractor/run-sync-get-dataset-items?token=YOUR_APIFY_TOKEN",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyTemplate": {
+      "urls": [
+        "https://linear.app/pricing",
+        "https://supabase.com/pricing"
+      ]
+    }
+  }
+}
